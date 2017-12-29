@@ -14,6 +14,7 @@ Graph.prototype = {
 const g = new Graph();
 console.log('object g');
 console.dir(g);
+console.log({ g }, typeof(g));
 g.addVertex({ x: 10, y: -2, z: 5 });
 console.dir(g);
 // объект 'g' имеет собственные свойства 'vertexes' и 'edges'.

@@ -23,5 +23,6 @@ class Square extends Polygon {
 const square = new Square(2);
 console.log('object square');
 console.dir(square);
+console.log({ square }, typeof(square));
 console.log(square.hasOwnProperty('height'));
 console.dir(square.height);

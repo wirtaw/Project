@@ -5,7 +5,8 @@ const o = { a: 1 };
 console.log('object o');
 console.dir(o);
 console.log('object o prototype');
-console.dir(o.__proto);
+console.dir(o.__proto__);
+console.log({ o }, typeof(o));
 
 // Созданный объект 'o' имеет Object.prototype в качестве своего [[Prototype]]
 // у 'o' нет собственного свойства 'hasOwnProperty'
@@ -18,7 +19,7 @@ const a = ['yo', 'whadup', '?'];
 console.log('array a');
 console.dir(a);
 console.log('array a prototype');
-console.dir(a.__proto);
+console.dir(a.__proto__);
 // console.log('Array prototype');
 // console.dir(a.prototype.prototype);
 
@@ -33,7 +34,7 @@ function f() {
 console.log('function f');
 console.dir(f);
 console.log('function f prototype');
-console.dir(f.__proto);
+console.dir(f.__proto__);
 // console.log('Function prototype');
 // console.dir(f.prototype.prototype);
 

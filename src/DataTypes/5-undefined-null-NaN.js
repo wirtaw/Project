@@ -7,7 +7,7 @@ console.log({ u }, typeof(u));
 
 // null
 
-let o = null;
+const o = null;
 console.log({ o }, typeof(o));
 
 //  NaN
@@ -17,3 +17,9 @@ console.log({ n }, typeof(n));
 
 n = undefined + 1;
 console.log({ n }, typeof(n));
+
+const n2 = parseInt('a12');
+console.log({ n2 }, typeof(n2));
+console.log('n == n2 ', (n == n2));
+console.log('n === n2 with type ', (n === n2));
+console.log('isNaN ', isNaN(n2));

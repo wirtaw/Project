@@ -4,7 +4,7 @@ const cities = ['Athens', 'Roma', 'London', 'Beijing', 'Kiev', 'Riga'];
 const f = s => s.length;
 
 function f1() {
-  const cities = ['Athens', 'Roma'];
+  const cities = ['Vilnius', 'Minsk'];
   const f = s => s.toUpperCase();
   console.dir({ cities });
   console.dir(cities.map(f));
@@ -16,7 +16,7 @@ function f1() {
   }
 
   {
-    const cities = ['London', 'Beijing', 'Kiev'];
+    const cities = ['Tallin', 'Helsinki', 'Warsaw'];
     console.dir({ cities });
     console.dir(cities.map(f));
   }
